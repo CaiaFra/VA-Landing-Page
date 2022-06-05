@@ -13,6 +13,7 @@ html {
 body {
   font-family: 'Ubuntu', sans-serif;
   min-width: 185px;
+  background-image: linear-gradient(100deg, #010036, #00677e);
 }
 
 nav {
@@ -50,4 +51,37 @@ a {
   text-decoration: none;
   color: white;
   font-size: 14px;
+}
+
+.hero-section {
+  color: #F8F7F7;
+  position: relative;
+  text-align: center;
+}
+
+.hero-section img {
+  width: 100%;
+
+  opacity: 0.6;
+}
+
+.hero-header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-header h1 {
+  font-size: 40px;
+  line-height: 95%;
+}
+
+.main-text {
+  margin-bottom: 30px;
+}
+
+.secondary-text h2 {
+  margin-bottom: 9px;
+  font-weight: 400;
 }
